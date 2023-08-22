@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(27, 27, 27);
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 270px;
+  height: 400px;
+  margin: 10px;
+  background-size: cover;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+
+  object-fit: cover;
+}
